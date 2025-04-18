@@ -1,0 +1,31 @@
+name: demo
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  youtube_player_flutter: ^9.1.0
+  webview_flutter: ^4.10.0
+  youtube_player_iframe: ^5.2.1
+  sdk_ratel_player_flutter:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/json/youtube_basic_sample.json
+    - assets/json/youtube_advance_sample.json
